@@ -1,0 +1,155 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+border:outset 4px #999	;
+height:595px;
+width:500px;
+position:absolute;
+display:block;
+}
+#txtnomecliente{
+	position: absolute;
+	display: block;
+	width: 220px;
+	height: 25px;
+	left: 20px;
+	top: 100px;
+	
+}
+#txtsobrenomecliente{
+	position: absolute;
+	display: block;
+	width: 220px;
+	height: 25px;
+	left: 260px;
+	top: 100px;
+	
+}
+#txtend1cliente{
+	position: absolute;
+	display: block;
+	width: 330px;
+	height: 25px;
+	left: 20px;
+	top: 150px;
+
+}
+#txtcep1cliente{
+	position: absolute;
+	display: block;
+	width: 110px;
+	height: 25px;
+	left: 370px;
+	top: 150px;
+	
+}
+#txtend2cliente{
+	position: absolute;
+	display: block;
+	width: 330px;
+	height: 25px;
+	top: 200px;
+	left: 20px
+}
+#txtcep2cliente{
+	position: absolute;
+	display: block;
+	width: 110px;
+	height: 25px;
+	left: 370px;
+	top: 200px;
+}
+#txtend3cliente{
+	position: absolute;
+	display: block;
+	width: 330px;
+	height: 25px;
+	top:250px;
+	left:20px;
+}
+#txtcep3cliente{
+	position: absolute;
+	display: block;
+	width: 110px;
+	height: 25px;
+	top:250px;
+	left:370px;
+}
+#txtcpfcliente{
+	position: absolute;
+	display: block;
+	width: 226px;
+	height: 25px;
+	left: 20px;
+	top: 300px;
+}
+#txtrgcliente{
+	position: absolute;
+	display: block;
+	width: 214px;
+	height: 25px;
+	top: 300px;
+	left: 266px;
+}
+#txtemailcliente{
+	position: absolute;
+	display: block;
+	width: 460px;
+	height: 25px;
+	left: 20px;
+	top:350;
+}
+#txtsenhacliente{
+	position: absolute;
+	display: block;
+	width: 260px;
+	height: 25px;
+	left:20px;
+	top:400px;
+}
+
+#txtfonecliente{
+	position: absolute;
+	display: block;
+	width: 200px;
+	height: 25px;
+	left:20px;
+	top:450px;
+}
+#botcadastro{
+	position: absolute;
+	display: block;
+	left: 22px;
+	top: 503px;
+	width: 150px;
+	height: 39px;
+}
+.textbox{
+	border:2px inset #CCC;
+	border-radius:10px;
+}
+#topcadastro{
+	position: absolute;
+	display: block;
+	left: 64px;
+	top: 32px;
+	width: 372px;
+	height: 46px;
+}
+#labelsenha{
+	position: absolute;
+	display: block;
+	left: 302px;
+	top: 402px;
+	font-size: 16px;
+	color: #999;
+}
+#labelsenha2{
+	position: absolute;
+	display: block;
+	left: 291px;
+	top: 404px;
+	font-size: 16px;
+	color: #F00;
+	height: 14px;
+}

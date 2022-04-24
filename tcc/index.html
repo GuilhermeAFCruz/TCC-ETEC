@@ -1,0 +1,88 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Age of Kings</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"  />
+</head>
+
+<body>
+
+<div id="container">
+  
+ <div id="logo">
+ <form action="listarcarrinho.php" method="post" name="carrinho" target="conteudo">
+   <img src="images/logo.fw.png" width="151" height="71" align="middle"/>
+ </form>
+ <div id="divBusca">
+   <form action="buscar.php" method="post" name="buscar" target="conteudo">
+     
+     <input type="text" id="txtbusca" name="txtbusca" placeholder="Pesquisar..."/>
+     <input type="image" nome="botpesquisa" src="images/buscar.png"  height="30" width="30" />
+     </form>
+</div>
+ <!--divBusca-->
+   
+ <iframe id="login" src="login.html">
+   
+   
+   
+</iframe>
+ <!--divlogin-->
+ <form name=formcar action="vercarrinho.php" method="post" target="conteudo"/>
+  <input type="image" nome="botcarrinho" src="images/carrinho.png" id="carrinho"/>
+  <a href="index.html"><img src="images/home.png" width="256" height="293" id="homebot" /></a> </div>
+ <div id="menulateral">
+   
+   
+   
+     <ul id="catnav">
+       <li><strong>Categorias</strong></li>
+       <li><a href="listaremcolunasc.php?cat=1" target="conteudo">Bonés</a></li>
+       <li><a href="listaremcolunasc.php?cat=2" target="conteudo">Moletons</a></li>
+       <li><a href="listaremcolunasc.php?cat=3" target="conteudo">Camisetas</a></li>
+       <li><a href="listaremcolunasc.php?cat=4" target="conteudo">Regatas</a></li>
+       <li><a href="listaremcolunasc.php?cat=5" target="conteudo">Calças</a></li>
+       <li><a href="listaremcolunasc.php?cat=6" target="conteudo">Calçados</a></li>
+       <li><a href="listaremcolunasc.php?cat=7" target="conteudo">Regatas NBA</a></li>
+     </ul>
+     <ul id="marcas">
+       <li><strong>Marcas</strong></li>
+       <li><a href="listaremcolunasm.php?marca=adidas" target="conteudo">Adidas</a></li>
+       <li><a href="listaremcolunasm.php?marca=alumni" target="conteudo">Alumni</a></li>
+       <li><a href="listaremcolunasm.php?marca=black pyramid" target="conteudo">Black Pyramid</a></li>
+       <li><a href="listaremcolunasm.php?marca=last kings" target="conteudo">Last Kings</a></li>
+       <li><a href="listaremcolunasm.php?marca=nike" target="conteudo">Nike</a></li>
+       <li><a href="listaremcolunasm.php?marca=ovo" target="conteudo">OVO</a></li>
+       
+       
+       
+    </ul>
+     
+     
+     
+     
+   
+ </div><!--menulateral-->
+ 
+ <iframe id="caroussel" src="caroussel.html">
+ 
+ </iframe><!--caroussel-->
+ 
+ 
+ <iframe name="conteudo" id="iframeconteudo" src="listaremcolunas.php">
+ </iframe>
+
+
+
+ <div align="left"></div>
+ <div id="footer">
+ 
+   
+</div><!--footer-->
+ 
+</div><!--container-->
+
+
+</body>
+</html>
